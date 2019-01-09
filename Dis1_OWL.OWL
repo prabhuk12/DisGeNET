@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdfs:Class rdf:about="http://semoss.org/ontologies/Concept"/>
+<rdf:Property rdf:about="http://semoss.org/ontologies/Relation"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/geneNID/geneAttributes">
+	<rdfs:subClassOf rdf:resource="http://semoss.org/ontologies/Concept"/>
+	<rdfs:Class rdf:resource="TYPE:SMALLINT(5)"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Concept/geneAttributes"/>
+</rdf:Description>
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/geneId/geneAttributes"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/geneNID/geneAttributes">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/geneId/geneAttributes">
+			<rdfs:Class rdf:resource="TYPE:INT(10)"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/geneId/geneAttributes"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/geneName/geneAttributes"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/geneNID/geneAttributes">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/geneName/geneAttributes">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(255)"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/geneName/geneAttributes"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/uniprotId/geneAttributes"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/geneNID/geneAttributes">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/uniprotId/geneAttributes">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(255)"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/uniprotId/geneAttributes"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/DSI/geneAttributes"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/geneNID/geneAttributes">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/DSI/geneAttributes">
+			<rdfs:Class rdf:resource="TYPE:DOUBLE"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/DSI/geneAttributes"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/DPI/geneAttributes"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/geneNID/geneAttributes">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/DPI/geneAttributes">
+			<rdfs:Class rdf:resource="TYPE:DOUBLE"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/DPI/geneAttributes"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/diseaseNID/geneDiseaseNetwork">
+	<rdfs:subClassOf rdf:resource="http://semoss.org/ontologies/Concept"/>
+	<rdfs:Class rdf:resource="TYPE:SMALLINT(5)"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Concept/geneDiseaseNetwork"/>
+</rdf:Description>
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/geneNID/geneDiseaseNetwork"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/diseaseNID/geneDiseaseNetwork">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/geneNID/geneDiseaseNetwork">
+			<rdfs:Class rdf:resource="TYPE:SMALLINT(5)"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/geneNID/geneDiseaseNetwork"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/association/geneDiseaseNetwork"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/diseaseNID/geneDiseaseNetwork">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/association/geneDiseaseNetwork">
+			<rdfs:Class rdf:resource="TYPE:MEDIUMINT(8)"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/association/geneDiseaseNetwork"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/associationType/geneDiseaseNetwork"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/diseaseNID/geneDiseaseNetwork">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/associationType/geneDiseaseNetwork">
+			<rdfs:Class rdf:resource="TYPE:TEXT"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/associationType/geneDiseaseNetwork"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/source/geneDiseaseNetwork"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/diseaseNID/geneDiseaseNetwork">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/source/geneDiseaseNetwork">
+			<rdfs:Class rdf:resource="TYPE:TEXT"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/source/geneDiseaseNetwork"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/pmid/geneDiseaseNetwork"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/diseaseNID/geneDiseaseNetwork">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/pmid/geneDiseaseNetwork">
+			<rdfs:Class rdf:resource="TYPE:INT(10)"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/pmid/geneDiseaseNetwork"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/sentence/geneDiseaseNetwork"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/diseaseNID/geneDiseaseNetwork">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/sentence/geneDiseaseNetwork">
+			<rdfs:Class rdf:resource="TYPE:TEXT"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/sentence/geneDiseaseNetwork"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/score/geneDiseaseNetwork"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/diseaseNID/geneDiseaseNetwork">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/score/geneDiseaseNetwork">
+			<rdfs:Class rdf:resource="TYPE:DOUBLE"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/score/geneDiseaseNetwork"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/year/geneDiseaseNetwork"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/diseaseNID/geneDiseaseNetwork">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/year/geneDiseaseNetwork">
+			<rdfs:Class rdf:resource="TYPE:INT(10)"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/year/geneDiseaseNetwork"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/EI/geneDiseaseNetwork"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/diseaseNID/geneDiseaseNetwork">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/EI/geneDiseaseNetwork">
+			<rdfs:Class rdf:resource="TYPE:DOUBLE"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/EI/geneDiseaseNetwork"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/variantNID/variantAttributes">
+	<rdfs:subClassOf rdf:resource="http://semoss.org/ontologies/Concept"/>
+	<rdfs:Class rdf:resource="TYPE:SMALLINT_(6)"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Concept/variantAttributes"/>
+</rdf:Description>
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/variantId/variantAttributes"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/variantNID/variantAttributes">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/variantId/variantAttributes">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR_(255)"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/variantId/variantAttributes"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/origen/variantAttributes"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/variantNID/variantAttributes">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/origen/variantAttributes">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR_(255)"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/origen/variantAttributes"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/class/variantAttributes"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/variantNID/variantAttributes">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/class/variantAttributes">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR_(255)"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/class/variantAttributes"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/chromosome/variantAttributes"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/variantNID/variantAttributes">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/chromosome/variantAttributes">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR_(255)"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/chromosome/variantAttributes"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/coord/variantAttributes"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/variantNID/variantAttributes">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/coord/variantAttributes">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR_(255)"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/coord/variantAttributes"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/most_severe_consequence/variantAttributes"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/variantNID/variantAttributes">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/most_severe_consequence/variantAttributes">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR_(255)"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/most_severe_consequence/variantAttributes"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/clinical_significance/variantAttributes"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/variantNID/variantAttributes">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/clinical_significance/variantAttributes">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR_(255)"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/clinical_significance/variantAttributes"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/ref/variantAttributes"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/variantNID/variantAttributes">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/ref/variantAttributes">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR_(255)"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/ref/variantAttributes"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/alt/variantAttributes"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/variantNID/variantAttributes">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/alt/variantAttributes">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(255)"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/alt/variantAttributes"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/ref_alt_1000G/variantAttributes"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/variantNID/variantAttributes">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/ref_alt_1000G/variantAttributes">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(255)"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/ref_alt_1000G/variantAttributes"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/AF_1000G/variantAttributes"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/variantNID/variantAttributes">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/AF_1000G/variantAttributes">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(255)"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/AF_1000G/variantAttributes"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/ref_alt_EXAC/variantAttributes"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/variantNID/variantAttributes">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/ref_alt_EXAC/variantAttributes">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(255)"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/ref_alt_EXAC/variantAttributes"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/AF_EXAC/variantAttributes"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/variantNID/variantAttributes">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/AF_EXAC/variantAttributes">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(255)"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/AF_EXAC/variantAttributes"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/DSI/variantAttributes"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/variantNID/variantAttributes">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/DSI/variantAttributes">
+			<rdfs:Class rdf:resource="TYPE:DOUBLE"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/DSI/variantAttributes"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/DPI/variantAttributes"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/variantNID/variantAttributes">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/DPI/variantAttributes">
+			<rdfs:Class rdf:resource="TYPE:DOUBLE"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/DPI/variantAttributes"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/geneNID/variantGene">
+	<rdfs:subClassOf rdf:resource="http://semoss.org/ontologies/Concept"/>
+	<rdfs:Class rdf:resource="TYPE:SMALLINT_(5)"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Concept/variantGene"/>
+</rdf:Description>
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/variantNID/variantGene"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/geneNID/variantGene">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/variantNID/variantGene">
+			<rdfs:Class rdf:resource="TYPE:SMALLINT_(6)"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/variantNID/variantGene"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/diseaseNID/variantDiseaseNetwork">
+	<rdfs:subClassOf rdf:resource="http://semoss.org/ontologies/Concept"/>
+	<rdfs:Class rdf:resource="TYPE:SMALLINT_(5)"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Concept/variantDiseaseNetwork"/>
+</rdf:Description>
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/variantNID/variantDiseaseNetwork"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/diseaseNID/variantDiseaseNetwork">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/variantNID/variantDiseaseNetwork">
+			<rdfs:Class rdf:resource="TYPE:SMALLINT_(6)"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/variantNID/variantDiseaseNetwork"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/association/variantDiseaseNetwork"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/diseaseNID/variantDiseaseNetwork">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/association/variantDiseaseNetwork">
+			<rdfs:Class rdf:resource="TYPE:MEDIUMINT_(8)"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/association/variantDiseaseNetwork"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/associationType/variantDiseaseNetwork"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/diseaseNID/variantDiseaseNetwork">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/associationType/variantDiseaseNetwork">
+			<rdfs:Class rdf:resource="TYPE:TEXT"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/associationType/variantDiseaseNetwork"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/source/variantDiseaseNetwork"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/diseaseNID/variantDiseaseNetwork">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/source/variantDiseaseNetwork">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR_(255)"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/source/variantDiseaseNetwork"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/pmid/variantDiseaseNetwork"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/diseaseNID/variantDiseaseNetwork">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/pmid/variantDiseaseNetwork">
+			<rdfs:Class rdf:resource="TYPE:INT_(10)"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/pmid/variantDiseaseNetwork"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/sentence/variantDiseaseNetwork"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/diseaseNID/variantDiseaseNetwork">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/sentence/variantDiseaseNetwork">
+			<rdfs:Class rdf:resource="TYPE:TEXT"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/sentence/variantDiseaseNetwork"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/score/variantDiseaseNetwork"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/diseaseNID/variantDiseaseNetwork">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/score/variantDiseaseNetwork">
+			<rdfs:Class rdf:resource="TYPE:DOUBLE"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/score/variantDiseaseNetwork"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/year/variantDiseaseNetwork"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/diseaseNID/variantDiseaseNetwork">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/year/variantDiseaseNetwork">
+			<rdfs:Class rdf:resource="TYPE:INT(10)"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/year/variantDiseaseNetwork"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/EI/variantDiseaseNetwork"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/diseaseNID/variantDiseaseNetwork">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/EI/variantDiseaseNetwork">
+			<rdfs:Class rdf:resource="TYPE:DOUBLE"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/EI/variantDiseaseNetwork"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/diseaseNID/disease2class">
+	<rdfs:subClassOf rdf:resource="http://semoss.org/ontologies/Concept"/>
+	<rdfs:Class rdf:resource="TYPE:SMALLINT(5)"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Concept/disease2class"/>
+</rdf:Description>
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/diseaseClassNID/disease2class"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/diseaseNID/disease2class">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/diseaseClassNID/disease2class">
+			<rdfs:Class rdf:resource="TYPE:SMALLINT(5)"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/diseaseClassNID/disease2class"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/diseaseClassNID/diseaseClass">
+	<rdfs:subClassOf rdf:resource="http://semoss.org/ontologies/Concept"/>
+	<rdfs:Class rdf:resource="TYPE:TINYINT(3)"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Concept/diseaseClass"/>
+</rdf:Description>
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/diseaseClass/diseaseClass"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/diseaseClassNID/diseaseClass">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/diseaseClass/diseaseClass">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(255)"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/diseaseClass/diseaseClass"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/diseaseClassName/diseaseClass"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/diseaseClassNID/diseaseClass">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/diseaseClassName/diseaseClass">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(255)"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/diseaseClassName/diseaseClass"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/diseaseNID/diseaseAttributes">
+	<rdfs:subClassOf rdf:resource="http://semoss.org/ontologies/Concept"/>
+	<rdfs:Class rdf:resource="TYPE:SMALLINT(5)"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Concept/diseaseAttributes"/>
+</rdf:Description>
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/diseaseId/diseaseAttributes"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/diseaseNID/diseaseAttributes">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/diseaseId/diseaseAttributes">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(255)"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/diseaseId/diseaseAttributes"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/diseaseName/diseaseAttributes"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/diseaseNID/diseaseAttributes">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/diseaseName/diseaseAttributes">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(255)"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/diseaseName/diseaseAttributes"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/type/diseaseAttributes"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/diseaseNID/diseaseAttributes">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/type/diseaseAttributes">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(255)"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/type/diseaseAttributes"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/diseaseClass.diseaseClassNID.disease2class.diseaseClassNID">
+	<rdfs:subPropertyOf rdf:resource="http://semoss.org/ontologies/Relation"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/diseaseClassNID/diseaseClass">
+	<diseaseClass.diseaseClassNID.disease2class.diseaseClassNID xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Concept/diseaseNID/disease2class"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/geneDiseaseNetwork.diseaseNID.diseaseAttributes.diseaseNID">
+	<rdfs:subPropertyOf rdf:resource="http://semoss.org/ontologies/Relation"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/diseaseNID/geneDiseaseNetwork">
+	<geneDiseaseNetwork.diseaseNID.diseaseAttributes.diseaseNID xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Concept/diseaseNID/diseaseAttributes"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/geneDiseaseNetwork.geneNID.geneAttributes.geneNID">
+	<rdfs:subPropertyOf rdf:resource="http://semoss.org/ontologies/Relation"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/diseaseNID/geneDiseaseNetwork">
+	<geneDiseaseNetwork.geneNID.geneAttributes.geneNID xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Concept/geneNID/geneAttributes"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/disease2class.diseaseNID.diseaseAttributes.diseaseNID">
+	<rdfs:subPropertyOf rdf:resource="http://semoss.org/ontologies/Relation"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/diseaseNID/disease2class">
+	<disease2class.diseaseNID.diseaseAttributes.diseaseNID xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Concept/diseaseNID/diseaseAttributes"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/diseaseAttributes.diseaseNID.variantDiseaseNetwork.diseaseNID">
+	<rdfs:subPropertyOf rdf:resource="http://semoss.org/ontologies/Relation"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/diseaseNID/diseaseAttributes">
+	<diseaseAttributes.diseaseNID.variantDiseaseNetwork.diseaseNID xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Concept/diseaseNID/variantDiseaseNetwork"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/variantAttributes.variantNID.variantDiseaseNetwork.variantNID">
+	<rdfs:subPropertyOf rdf:resource="http://semoss.org/ontologies/Relation"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/variantNID/variantAttributes">
+	<variantAttributes.variantNID.variantDiseaseNetwork.variantNID xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Concept/diseaseNID/variantDiseaseNetwork"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/geneAttributes.geneNID.variantGene.geneNID">
+	<rdfs:subPropertyOf rdf:resource="http://semoss.org/ontologies/Relation"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/geneNID/geneAttributes">
+	<geneAttributes.geneNID.variantGene.geneNID xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Concept/geneNID/variantGene"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/variantGene.variantNID.variantAttributes.variantNID">
+	<rdfs:subPropertyOf rdf:resource="http://semoss.org/ontologies/Relation"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/geneNID/variantGene">
+	<variantGene.variantNID.variantAttributes.variantNID xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Concept/variantNID/variantAttributes"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/TimeStamp">
+	<TIME xmlns="ENGINE:">2019:01:06 22:43:19</TIME>
+</rdf:Description>
+
+</rdf:RDF>

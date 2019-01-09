@@ -1,0 +1,12 @@
+Base Properties
+ENGINE	431435f2-b207-42b6-b02c-273827e5a9b2
+ENGINE_ALIAS	Dis1
+ENGINE_TYPE	prerna.engine.impl.rdbms.RDBMSNativeEngine
+RDBMS_INSIGHTS	db/@ENGINE@/insights_database
+OWL	db/@ENGINE@/Dis1_OWL.OWL
+PIXEL_UPDATE	true
+RDBMS_TYPE	SQLITE
+DRIVER	org.sqlite.JDBC
+USERNAME	
+PASSWORD	
+CONNECTION_URL	jdbc:sqlite:C:/Users/pkapaleeswaran/workspacej3/SemossWeb/db/disgenet/disgenet_2017_v5-3-0.db
